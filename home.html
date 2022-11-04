@@ -70,6 +70,12 @@
                             <span class="text">About</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-admin"></i></span>
+                            <span onclick="admin()" class="text">Admin</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -117,6 +123,9 @@
             document.getElementById('para').innerHTML = document.getElementById('foee').innerHTML;
         }
 
+        function admin() {
+            window.location.replace("adminpage.html");
+        }
 
     </script>
 </body>
